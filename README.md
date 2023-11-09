@@ -1,19 +1,10 @@
-# CoLang Concepts
+# NeMo-Guardrails Overview
 
-Core Syntax Elements
-The core syntax elements are: blocks, statements, expressions, keywords and variables. There are three main types of blocks: user message blocks (define user ...), flow blocks (define flow ...) and bot message blocks (define bot ...).
+This repository provides an introduction to NeMo-Guardrails, showcasing its fundamentals and practical applications. It primarily focuses on the `CoLang` modeling language, illustrating how to effectively utilize it to structure and control dialogues within conversational AI systems. Additionally, it demonstrates the integration of NeMo-Guardrails with LangChain, offering insights into enhancing conversational AI capabilities.
 
-### Core Syntax Elements
+Inside, you'll find:
 
-The core syntax elements are: blocks, statements, expressions, keywords and variables. There are three main types of blocks: _user message blocks_ (`define user ...`), _flow blocks_ (`define flow ...`) and _bot message blocks_ (`define bot ...`).
-
-```colang
-define user express greeting
-  "hello"
-  "hi"
-
-define user request help
-  "I need help with something."
-  "I need your help."
-```
-"# NeMo-Guardrails" 
+- **Basic Concepts**: A deep dive into the core principles of NeMo-Guardrails, helping you grasp its functionality and usage.
+- **CoLang Essentials**: Detailed explanations and examples of CoLang, guiding you through its syntax, capabilities, and how it shapes conversation flow and responses.
+- **LangChain Integration**: Step-by-step instructions on integrating CoLang and NeMo-Guardrails within the LangChain framework, enhancing the control and management of language models.
+- **Practical Use Cases**: Interactive examples and scenarios demonstrating the real-world application of these tools, empowering you to build more robust, controlled conversational AI solutions.
